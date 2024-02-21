@@ -1,0 +1,23 @@
+[package]
+name = "little-hyper"
+version = "0.1.0"
+description = "Hyper text transfar protocol written in rust."
+authors = ["mdmahikaishar <mdmahikaishar@gmail.com>"]
+edition = "2021"
+repository = "https://github.com/mdmahikaishar/little-hyper"
+keywords = ["http", "http-server", "tcp", "protocol"]
+license = "MIT"
+readme = "README.md"
+include = ["src/**", "README.md"]
+
+
+[dependencies]
+regex = "1.10.2"
+
+[lib]
+name = "little_hyper"
+path = "src/lib.rs"
+
+[[example]]
+name = "main"
+path = "examples/main.rs"
