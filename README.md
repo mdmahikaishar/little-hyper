@@ -4,6 +4,12 @@
 
 Hyper text transfar protocol written in rust.
 
+## Get Strated
+
+```bash
+cargo add little-hyper
+```
+
 ## Example
 
 ```rs
